@@ -3,7 +3,7 @@
 ### 스키마와의 첫만남
 
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/7c2372e1/stack/images/intro/all-page-stack-reconciler-25-scale.jpg)](../images/intro/all-page-stack-reconciler.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/intro/all-page-stack-reconciler-25-scale.jpg)](../images/intro/all-page-stack-reconciler.svg)
 
 <em>Intro.0 전체 스키마 (클릭 가능)</em>
 
@@ -11,13 +11,13 @@
 
 처음 보셨을때, 아마 스키마안에 많은 색들이 있다는것을 알아채셨을 겁니다. 각 논리 항목(스키마의 모양)은 부모 모듈의 색상으로 표시됩니다. 예를 들어, 빨간색인 `moduleB`에서 호출된 `methodA`는 빨간색을 갖습니다. 아래는 각 파일의 경로와 스키마안의 모듈에 대한 범례입니다.
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/7c2372e1/stack/images/intro/modules-src-path.svg)](https://twisger.github.io/Under-the-hood-ReactJS/7c2372e1/stack/images/intro/modules-src-path.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/intro/modules-src-path.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/intro/modules-src-path.svg)
 
 <em>Intro.1 모듈의 색깔들 (클릭 가능)</em>
 
 **모듈들간의 의존성**들을 확인하기 위해 스키마로 표현해봅시다.
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/7c2372e1/stack/images/intro/files-scheme.svg)](https://twisger.github.io/Under-the-hood-ReactJS/7c2372e1/stack/images/intro/files-scheme.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/intro/files-scheme.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/intro/files-scheme.svg)
 
 <em>Intro.2 모듈들간 의존성 (클릭 가능)</em>
 
@@ -30,7 +30,7 @@
 
 결과적으로는 위의 스키마보다 실제로는 더 많은 파일들이 있습니다. 다음은 다중지원이 포함된 스키마입니다.
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/7c2372e1/stack/images/intro/modules-per-platform-scheme.svg)](https://twisger.github.io/Under-the-hood-ReactJS/7c2372e1/stack/images/intro/modules-per-platform-scheme.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/intro/modules-per-platform-scheme.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/intro/modules-per-platform-scheme.svg)
 
 <em>Intro.3 플랫폼 의존성들 (클릭 가능)</em>
 
