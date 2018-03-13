@@ -1,6 +1,6 @@
 ## Part 9
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/9/part-9.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/9/part-9.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/9/part-9.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/9/part-9.svg)
 
 <em>9.0 Part 9 (clickable)</em>
 
@@ -36,7 +36,7 @@ Alright, back to our update, let’s see one more time. The approach is:
 1. add affected components to `dirtyComponents` list,
 1. close transaction with calling `ReactUpdates.flushBatchedUpdates`, what actually means ‘process whatever was collected into `dirtyComponents`’.
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/9/set-state-update-start.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/9/set-state-update-start.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/9/set-state-update-start.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/9/set-state-update-start.svg)
 
 <em>9.1 `setState` start (clickable)</em>
 
@@ -44,19 +44,19 @@ Alright, back to our update, let’s see one more time. The approach is:
 
 Let’s recap how we got here. Let's look at the scheme one more time, then remove redundant less important pieces, and it becomes this:
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/9/part-9-A.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/9/part-9-A.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/9/part-9-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/9/part-9-A.svg)
 
 <em>9.2 Part 9 simplified (clickable)</em>
 
 And we should probably fix spaces and alignment as well:
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/9/part-9-B.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/9/part-9-B.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/9/part-9-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/9/part-9-B.svg)
 
 <em>9.3 Part 9 simplified & refactored (clickable)</em>
 
 Nice. In fact, that’s all that happens here. So, we can take the essential value from *Part 9* and use it for the final `updating` scheme:
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/9/part-9-C.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/9/part-9-C.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/9/part-9-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/9/part-9-C.svg)
 
 <em>9.6 Part 9 essential value (clickable)</em>
 

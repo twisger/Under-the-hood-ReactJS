@@ -1,6 +1,6 @@
 ## 第 0 部分
 
-[![图 0-0](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/0/part-0.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/0/part-0.svg)
+[![图 0-0](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/0/part-0.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/0/part-0.svg)
 
 
 
@@ -18,14 +18,14 @@
 至少源码中的注释是这样描述的。那这真实的含义是什么呢？好吧，让我们想象一下下方的转换：
 
 
-[![图 0-1 JSX 到 HTML](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/0/mounting-scheme-1-small.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/0/mounting-scheme-1-small.svg)
+[![图 0-1 JSX 到 HTML](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/0/mounting-scheme-1-small.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/0/mounting-scheme-1-small.svg)
 
 
 
 React 需要**将你的组件描述转换为 HTML** 以将其放入到 DOM 中。那怎样才能做到呢？没错，它需要处理所有的**属性、事件监听、内嵌的组件**和逻辑。它需要将你的高阶描述（组件）转换成实际可以放入到网页中的低阶数据（HTML）。这就是真正的挂载过程。
 
 
-[![图 0-2 JXS 到 HTML 2](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/0/mounting-scheme-1-big.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/0/mounting-scheme-1-big.svg)
+[![图 0-2 JXS 到 HTML 2](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/0/mounting-scheme-1-big.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/0/mounting-scheme-1-big.svg)
 
 
 
@@ -39,7 +39,7 @@ React 需要**将你的组件描述转换为 HTML** 以将其放入到 DOM 中�
 
 看下流程图，在图中（03）处标明了一个创建的实例。在这里创建一个 `<ExampleApplication />` 的实例还为时过早。实际上该处实例化了 `TopLevelWrapper`（一个 React 内部的类）。让我们先来看看下面这个流程图。
 
-[![图 0-3 JSX 到 虚拟 DOM](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/0/jsx-to-vdom.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/0/jsx-to-vdom.svg)
+[![图 0-3 JSX 到 虚拟 DOM](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/0/jsx-to-vdom.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/0/jsx-to-vdom.svg)
 
 
 
@@ -67,19 +67,19 @@ TopLevelWrapper.prototype.render = function () {
 
 让我们回顾一下上面的内容。再看一下流程图，然后删除多余的不太重要的部分，变成下面这样：
 
-[![图 0-4 简述](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/0/part-0-A.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/0/part-0-A.svg)
+[![图 0-4 简述](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/0/part-0-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/0/part-0-A.svg)
 
 
 
 再调整一下间距和对齐：
 
-[![图 0-5 简述和调整](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/0/part-0-B.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/0/part-0-B.svg)
+[![图 0-5 简述和调整](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/0/part-0-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/0/part-0-B.svg)
 
 
 
 实际上，这就是本部分的所有内容。因此，我们可以从 **第 0 部分** 中得到重点，并将它用于最终的 `mounting` 流程中：
 
-[![图 0-6 重点](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/0/part-0-C.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/0/part-0-C.svg)
+[![图 0-6 重点](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/0/part-0-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/0/part-0-C.svg)
 
 
 

@@ -1,6 +1,6 @@
 ## Part 7
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/7/part-7.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/7/part-7.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/7/part-7.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/7/part-7.svg)
 
 <em>7.0 Part 7 (clickable)</em>
 
@@ -24,26 +24,26 @@ Here, we check the wrapper `ReactUpdates.flushBatchedUpdates`(5), which will pro
 
 Let’s recap how we got here. Let's look at the scheme one more time, then remove redundant less important pieces, and it becomes this:
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/7/part-7-A.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/7/part-7-A.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/7/part-7-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/7/part-7-A.svg)
 
 <em>7.1 Part 7 simplified (clickable)</em>
 
 And we should probably fix spaces and alignment as well:
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/7/part-7-B.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/7/part-7-B.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/7/part-7-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/7/part-7-B.svg)
 
 <em>7.2 Part 7 simplified & refactored (clickable)</em>
 
 Nice. In fact, that’s all that happens here. So, we can take the essential value from *Part 7* and use it for the final `mounting` scheme:
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/7/part-7-C.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/7/part-7-C.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/7/part-7-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/7/part-7-C.svg)
 
 <em>7.3 Part 7 essential value (clickable)</em>
 
 And then we're done! In fact, we're done with mounting. Let's see it below!
 
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/7/mounting-parts-C.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/7/mounting-parts-C.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/7/mounting-parts-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/7/mounting-parts-C.svg)
 
 <em>7.4 Mounting (clickable)</em>
 

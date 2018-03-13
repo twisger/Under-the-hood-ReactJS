@@ -11,13 +11,13 @@ So... have a look. Take your time. Overall it looks complex, but in fact, it des
 
 On first look, you probably noticed many colors in the scheme. Each logic item (shape on the scheme) is highlighted in its parent module's color. For example, `methodA` will be red if it’s called from `moduleB`, which is red. Below is a legend for the modules in the scheme along with the path to each file.
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/7c2372e1/stack/images/intro/modules-src-path.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/7c2372e1/stack/images/intro/modules-src-path.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/7c2372e1/stack/images/intro/modules-src-path.svg)](https://twisger.github.io/Under-the-hood-ReactJS/7c2372e1/stack/images/intro/modules-src-path.svg)
 
 <em>Intro.1 Modules colors (clickable)</em>
 
 Let’s put them into a scheme to see the **dependencies between modules**.
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/7c2372e1/stack/images/intro/files-scheme.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/7c2372e1/stack/images/intro/files-scheme.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/7c2372e1/stack/images/intro/files-scheme.svg)](https://twisger.github.io/Under-the-hood-ReactJS/7c2372e1/stack/images/intro/files-scheme.svg)
 
 <em>Intro.2 Modules dependencies (clickable)</em>
 
@@ -30,7 +30,7 @@ As you probably know, React is built to **support many environments**.
 
 As a result, a number of files are actually bigger than it looks in the scheme above. Below is the same scheme with multi-support included.
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/7c2372e1/stack/images/intro/modules-per-platform-scheme.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/7c2372e1/stack/images/intro/modules-per-platform-scheme.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/7c2372e1/stack/images/intro/modules-per-platform-scheme.svg)](https://twisger.github.io/Under-the-hood-ReactJS/7c2372e1/stack/images/intro/modules-per-platform-scheme.svg)
 
 <em>Intro.3 Platform dependencies (clickable)</em>
 

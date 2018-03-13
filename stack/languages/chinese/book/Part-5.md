@@ -1,6 +1,6 @@
 ## 第 5 部分
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/5/part-5.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/5/part-5.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/5/part-5.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/5/part-5.svg)
 
 <em>5.0 第 5 部分(点击查看大图)</em>
 
@@ -39,19 +39,19 @@ transaction.getReactMountReady().enqueue(putListener, {
 
 我们来回顾一下我们学到的。我们再看一下这种模式，然后去掉冗余的部分：
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/5/part-5-A.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/5/part-5-A.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/5/part-5-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/5/part-5-A.svg)
 
 <em>5.1 第 5 部分简化版 (点击查看大图)</em>
 
 然后我们适当再调整一下：
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/5/part-5-B.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/5/part-5-B.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/5/part-5-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/5/part-5-B.svg)
 
 <em>5.2 第 5 部分简化和重构 (点击查看大图)</em>
 
 很好，实际上，下面的示意图就是我们所讲的。因此，我们可以理解**第 5 部分**的本质，并将其用于最终的 `mounting` 方案：
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/5/part-5-C.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/5/part-5-C.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/5/part-5-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/5/part-5-C.svg)
 
 <em>5.3 第 5 部分 本质 (点击查看大图)</em>
 

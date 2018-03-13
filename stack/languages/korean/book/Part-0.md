@@ -1,6 +1,6 @@
 ## 파트 0
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/0/part-0.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/0/part-0.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/0/part-0.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/0/part-0.svg)
 
 <em>0.0 파트 0 (클릭 가능)</em>
 
@@ -18,14 +18,14 @@
 최소한 코드의 주석은 그렇게 설명하고 있습니다. 이것의 진짜 의미는 무엇일까요? 다음의 변환을 상상해 보도록 하죠:
 
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/0/mounting-scheme-1-small.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/0/mounting-scheme-1-small.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/0/mounting-scheme-1-small.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/0/mounting-scheme-1-small.svg)
 
 <em>0.1 JSX에서 HTML로 (클릭 가능)</em>
 
 리엑트를 document에 넣기위해서 **컴포넌트 명세를 HTML로 변환하는 것이** 필요합니다. 그럼 그 명세를 어떻게 전달할 수 있을까요? 맞습니다, 우선 모든 **props, 이벤트 리스너, 중첩 컴포넌트** 로직들을 다뤄야 필요가 있습니다. 이건 높은 수준의 명세(컴포넌트)를 웹 페이지에 넣을 수 있는 낮은 수준의 데이터(HTML)로 세분화 합니다. 이게 마운팅에 대한 전부입니다.
 
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/0/mounting-scheme-1-big.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/0/mounting-scheme-1-big.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/0/mounting-scheme-1-big.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/0/mounting-scheme-1-big.svg)
 
 <em>0.2 JSX에서 HTML, 확장 (클릭 가능)</em>
 
@@ -39,7 +39,7 @@
 
 위의 스키마에 숫자(03)으로 표현된 '인스턴스 생성'이 보이지만, 아직 `<ExampleApplication />`의 인스턴스를 만드는 것은 이른것 같습니다. 사실, `TopLevelWrapper`(내부 React 클래스)를 인스턴스화합니다. 이제 다음 스키마를 확인해 봅시다.
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/0/jsx-to-vdom.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/0/jsx-to-vdom.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/0/jsx-to-vdom.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/0/jsx-to-vdom.svg)
 
 <em>0.3 JSX에서 VDOM으로 (클릭 가능)</em>
 
@@ -67,19 +67,19 @@ TopLevelWrapper.prototype.render = function () {
 
 우리가 어떻게 여기까지 왔는지 다시 한번 살펴보도록 합시다. 스키마에서 덜 중요한 부분을 제거하면 다음과 같습니다.
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/0/part-0-A.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/0/part-0-A.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/0/part-0-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/0/part-0-A.svg)
 
 <em>0.4 간단히 보는 파트 0 (클릭 가능)</em>
 
 공백제거와 정렬을 통해 보기 좋게 수정했습니다.
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/0/part-0-B.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/0/part-0-B.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/0/part-0-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/0/part-0-B.svg)
 
 <em>0.5 간단히 보는 파트 0 리펙토링 버전 (클릭 가능)</em>
 
 좋습니다. 사실, 이것이 여기서 일어나는 일 전부입니다. 이제 *파트 0*의 핵심들을 가지고 최종 `mounting` 스키마에 사용할 수 있습니다.
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/0/part-0-C.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/0/part-0-C.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/0/part-0-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/0/part-0-C.svg)
 
 <em>0.6 파트 0의 핵심 (클릭 가능)</em>
 

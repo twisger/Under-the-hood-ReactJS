@@ -11,13 +11,13 @@
 
 乍一看，你可能会注意到流程图中有很多颜色。每个逻辑项（流程图上的形状）都以其父模块的颜色高亮显示。例如，如果是从红色的 `模块 B` 调用 `方法 A`，那 `方法 A` 也是红色的。以下是流程图中模块的图例以及每个文件的路径。
 
-[![图 介绍-1：模块颜色](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/7c2372e1/stack/images/intro/modules-src-path.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/7c2372e1/stack/images/intro/modules-src-path.svg)
+[![图 介绍-1：模块颜色](https://twisger.github.io/Under-the-hood-ReactJS/7c2372e1/stack/images/intro/modules-src-path.svg)](https://twisger.github.io/Under-the-hood-ReactJS/7c2372e1/stack/images/intro/modules-src-path.svg)
 
 
 
 让我们把它们放在一张流程图中，看看**模块之间的依赖关系**。
 
-[![图 介绍-2 模块依赖关系](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/7c2372e1/stack/images/intro/files-scheme.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/7c2372e1/stack/images/intro/files-scheme.svg)
+[![图 介绍-2 模块依赖关系](https://twisger.github.io/Under-the-hood-ReactJS/7c2372e1/stack/images/intro/files-scheme.svg)](https://twisger.github.io/Under-the-hood-ReactJS/7c2372e1/stack/images/intro/files-scheme.svg)
 
 
 
@@ -30,7 +30,7 @@
 
 因此，一些文件实际上比上面流程图中列出的要更大。以下是包含多环境支持的相同的流程图。
 
-[![介绍 图-3 多平台模块依赖关系](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/7c2372e1/stack/images/intro/modules-per-platform-scheme.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/7c2372e1/stack/images/intro/modules-per-platform-scheme.svg)
+[![介绍 图-3 多平台模块依赖关系](https://twisger.github.io/Under-the-hood-ReactJS/7c2372e1/stack/images/intro/modules-per-platform-scheme.svg)](https://twisger.github.io/Under-the-hood-ReactJS/7c2372e1/stack/images/intro/modules-per-platform-scheme.svg)
 
 
 

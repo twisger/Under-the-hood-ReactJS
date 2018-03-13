@@ -1,6 +1,6 @@
 ## 파트 5
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/5/part-5.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/5/part-5.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/5/part-5.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/5/part-5.svg)
 
 <em>5.0 파트 5 (클릭 가능)</em>
 
@@ -39,19 +39,19 @@ transaction.getReactMountReady().enqueue(putListener, {
 
 우리가 어떻게 여기까지 왔는지 다시 한번 살펴보도록 합시다. 스키마에서 덜 중요한 부분을 제거하면 다음과 같습니다.
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/5/part-5-A.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/5/part-5-A.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/5/part-5-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/5/part-5-A.svg)
 
 <em>5.1 간단히 보는 파트 5 (클릭 가능)</em>
 
 공백제거와 정렬을 통해 보기 좋게 수정했습니다.
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/5/part-5-B.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/5/part-5-B.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/5/part-5-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/5/part-5-B.svg)
 
 <em>5.2 간단히 보는 파트 5 리펙토링 버전 (클릭 가능)</em>
 
 좋습니다. 사실, 이것이 여기서 일어나는 일 전부입니다. 이제 *파트 5*의 핵심들을 가지고 최종 `mounting` 스키마에 사용할 수 있습니다.
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/5/part-5-C.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/5/part-5-C.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/5/part-5-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/5/part-5-C.svg)
 
 <em>5.3 파트 5의 핵심 (클릭 가능)</em>
 

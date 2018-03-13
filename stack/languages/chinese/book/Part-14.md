@@ -1,6 +1,6 @@
 ## 第 14 部分
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/14/part-14.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/14/part-14.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/14/part-14.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/14/part-14.svg)
 
 <em>14.0 第 14 部分(点击查看大图)</em>
 
@@ -14,7 +14,7 @@
 
 首先，在首次迭代时，我们分析 `ExampleApplication children`。很明显可以看出子组件的类型不是 “纯内容类型”，因此情况为 “复杂” 情况。然后我们一层层往下递归，每层都会判断 children 的类型。顺便说一下，步骤 (2) 的 `shouldUpdateReactComponent` 判断条件可能让你有些困惑，它看上去是在验证更新与否，但实际上它会检查类型是更新还是删除与创建（为了简化流程我们跳过此条件为否的情形，假定是更新）。当然接下来我们对比新旧子组件，如果有孩子被移除，我们也会去除挂载组件，并把它移除。
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/14/children-update.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/14/children-update.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/14/children-update.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/14/children-update.svg)
 
 <em>14.1 Children 更新 (点击查看大图)</em>
 
@@ -96,25 +96,25 @@ processUpdates: function(parentNode, updates) {
 
 我们来回顾一下我们学到的。我们再看一下这种模式，然后去掉冗余的部分：
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/14/part-14-A.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/14/part-14-A.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/14/part-14-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/14/part-14-A.svg)
 
 <em>14.2 第 14 部分简化板 (点击查看大图)</em>
 
 然后我们适当再调整一下：
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/14/part-14-B.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/14/part-14-B.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/14/part-14-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/14/part-14-B.svg)
 
 <em>14.3 第 14 简化和重构 (点击查看大图)</em>
 
 很好，实际上，下面的示意图就是我们所讲的。因此，我们可以理解**第 14 部分**的本质，并将其用于最终的 `updating` 方案：
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/14/part-14-C.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/14/part-14-C.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/14/part-14-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/14/part-14-C.svg)
 
 <em>14.4 第 14 部分 本质 (点击查看大图)</em>
 
 我们已经完成了更新操作的学习，让我们重头整理一下。
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/14/updating-parts-C.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/14/updating-parts-C.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/14/updating-parts-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/14/updating-parts-C.svg)
 
 <em>14.5 更新 (点击查看大图)</em>
 

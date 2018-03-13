@@ -1,6 +1,6 @@
 ## Part 3
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/3/part-3.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/3/part-3.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/3/part-3.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/3/part-3.svg)
 
 <em>3.0 Part 3 (clickable)</em>
 
@@ -74,19 +74,19 @@ And, call `mountComponent` on it…
 
 Let’s recap how we got here. Let's look at the scheme one more time, then remove redundant less important pieces, and it becomes this:
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/3/part-3-A.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/3/part-3-A.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/3/part-3-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/3/part-3-A.svg)
 
 <em>3.1 Part 3 simplified (clickable)</em>
 
 And we should probably fix spaces and alignment as well:
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/3/part-3-B.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/3/part-3-B.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/3/part-3-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/3/part-3-B.svg)
 
 <em>3.2 Part 3 simplified & refactored (clickable)</em>
 
 Nice. In fact, that’s all that happens here. So, we can take the essential value from *Part 3* and use it for the final `mounting` scheme:
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/3/part-3-C.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/3/part-3-C.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/3/part-3-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/3/part-3-C.svg)
 
 <em>3.3 Part 3 essential value (clickable)</em>
 

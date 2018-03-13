@@ -1,6 +1,6 @@
 ## 第七部分
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/7/part-7.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/7/part-7.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/7/part-7.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/7/part-7.svg)
 
 <em>7.0 第七部分（可点击查看大图）</em>
 
@@ -24,26 +24,26 @@
 
 让我们回顾一下我们是如何到达这里的。首先再看一下整体流程，然后去除多余的不太重要的部分，它就变成了：
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/7/part-7-A.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/7/part-7-A.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/7/part-7-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/7/part-7-A.svg)
 
 <em>7.1 第 7 部分 简化（点击查看大图）</em>
 
 我们也应该修改空格和对齐：
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/7/part-7-B.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/7/part-7-B.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/7/part-7-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/7/part-7-B.svg)
 
 <em>7.2 第 7 部分 简化并重构（点击查看大图）</em>
 
 其实这就是这里发生的所有。我们可以从第 7 部分中的重要部分来组成最终的 `mounting` 流程：
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/7/part-7-C.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/7/part-7-C.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/7/part-7-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/7/part-7-C.svg)
 
 <em>7.3 第 7 部分 基本价值（点击查看大图）</em>
 
 完成！其实我们完成了加载。让我们来看看下图吧！
 
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/7/mounting-parts-C.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/7/mounting-parts-C.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/7/mounting-parts-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/7/mounting-parts-C.svg)
 
 <em>7.4 Mounting 过程（点击查看大图）</em>
 

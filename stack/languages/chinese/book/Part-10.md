@@ -1,6 +1,6 @@
 ## 第 10 部分
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/10/part-10.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/10/part-10.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/10/part-10.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/10/part-10.svg)
 
 <em>10.0 第十部分 (点击查看大图)</em>
 
@@ -45,19 +45,19 @@ method -> ReactUpdates.runBatchedUpdates
 
 我们来回顾一下我们学到的。我们再看一下这种模式，然后去掉冗余的部分：
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/10/part-10-A.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/10/part-10-A.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/10/part-10-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/10/part-10-A.svg)
 
 <em>10.1 第 10 部分简化版 (点击查看大图)</em>
 
 让我们适度调整一下：
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/10/part-10-B.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/10/part-10-B.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/10/part-10-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/10/part-10-B.svg)
 
 <em>10.2 第 10 部分重构与简化 (点击查看大图)</em>
 
 很好，实际上，下面的示意图就是我们所讲的。因此，我们可以理解**第 10 部分**的本质，并将其用于最终的 `updating` 方案：
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/10/part-10-C.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/10/part-10-C.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/10/part-10-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/10/part-10-C.svg)
 
 <em>10.3 第 10 部分 本质 (点击查看大图)</em>
 

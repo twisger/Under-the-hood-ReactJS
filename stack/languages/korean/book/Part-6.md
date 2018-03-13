@@ -1,6 +1,6 @@
 ## 파트 6
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/6/part-6.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/6/part-6.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/6/part-6.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/6/part-6.svg)
 
 <em>6.0 파트 6 (클릭 가능)</em>
 
@@ -14,7 +14,7 @@
 
 만약 당신이 이 글을 아직 읽고 있다면, 아마도 전체 프로세스를 한 번 더 명확히 검토해야 할 때입니다. 객체의 순서를 되새겨 봅시다.
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/6/overall-mounting-scheme.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/6/overall-mounting-scheme.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/6/overall-mounting-scheme.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/6/overall-mounting-scheme.svg)
 
 <em>6.1 전반적인 마운팅 스키마 (클릭 가능)</em>
 
@@ -38,19 +38,19 @@
 
 우리가 어떻게 여기까지 왔는지 다시 한번 살펴보도록 합시다. 스키마에서 덜 중요한 부분을 제거하면 다음과 같습니다.
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/6/part-6-A.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/6/part-6-A.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/6/part-6-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/6/part-6-A.svg)
 
 <em>6.2 간단히 보는 파트 6 (클릭 가능)</em>
 
 공백을 처리하고 정렬을 통해 더 좋게 수정했습니다.
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/6/part-6-B.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/6/part-6-B.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/6/part-6-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/6/part-6-B.svg)
 
 <em>6.3 간단히 보는 파트 6 리펙토링 버전 (클릭 가능)</em>
 
 좋습니다. 사실, 이것이 여기서 일어나는 일 전부입니다. 이제 *파트 6*의 핵심들을 가지고 최종 `mounting` 스키마에 사용할 수 있습니다.
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/6/part-6-C.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/6/part-6-C.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/6/part-6-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/6/part-6-C.svg)
 
 <em>6.4 파트 6의 핵심 (클릭 가능)</em>
 

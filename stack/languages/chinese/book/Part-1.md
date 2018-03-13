@@ -1,6 +1,6 @@
 ## 第 1 部分
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/1/part-1.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/1/part-1.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/1/part-1.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/1/part-1.svg)
 
 <em>1.0 第 1 部分(点击查看大图)</em>
 
@@ -15,7 +15,7 @@
 想象一下 `通信信道`。你需要开启连接，发送消息，然后关闭连接。 如果你按这个方式逐个发送消息，就要每次发送消息的时候建立、关闭连接。不过，你也可以只开启一次连接，发送所有挂起的消息然后关闭连接。
 
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/1/communication-channel.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/1/communication-channel.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/1/communication-channel.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/1/communication-channel.svg)
 
 <em>1.1 非常真实的事务示例 (查看大图)</em>
 
@@ -28,7 +28,7 @@
 * 调用事务方法本身
 * 调用每个 wrapper.close 方法
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/1/transaction.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/1/transaction.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/1/transaction.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/1/transaction.svg)
 
 <em>1.2 事务实现 (点击查看大图)</em>
 
@@ -68,19 +68,19 @@ var TRANSACTION_WRAPPERS = [FLUSH_BATCHED_UPDATES, RESET_BATCHED_UPDATES];
 
 我们来回顾一下我们学到的。我们再看一下这种模式，然后去掉冗余的部分：
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/1/part-1-A.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/1/part-1-A.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/1/part-1-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/1/part-1-A.svg)
 
 <em>1.3 第 1 部分简化版 (点击查看大图)</em>
 
 然后我们适当再调整一下：
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/1/part-1-B.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/1/part-1-B.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/1/part-1-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/1/part-1-B.svg)
 
 <em>1.4 第 1 部分简化和重构 (点击查看大图)</em>
 
 很好，实际上，下面的示意图就是我们所讲的。因此，我们可以理解**第 1 部分**的本质，并将其画在最终的 `mount`（挂载） 方案里：
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/1/part-1-C.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/1/part-1-C.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/1/part-1-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/1/part-1-C.svg)
 
 <em>1.5 第 1 部分本质(点击查看大图)</em>
 

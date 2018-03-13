@@ -1,6 +1,6 @@
 ## Part 11
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/11/part-11.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/11/part-11.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/11/part-11.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/11/part-11.svg)
 
 <em>11.0 Part 11 (clickable)</em>
 
@@ -19,19 +19,19 @@ Well, next step, we set `shouldUpdate` to default value `true`(3). That’s actu
 
 Let’s recap how we got here. Let's look at the scheme one more time, then remove redundant less important pieces, and it becomes this:
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/11/part-11-A.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/11/part-11-A.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/11/part-11-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/11/part-11-A.svg)
 
 <em>11.1 Part 11 simplified (clickable)</em>
 
 And we should probably fix spaces and alignment as well:
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/11/part-11-B.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/11/part-11-B.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/11/part-11-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/11/part-11-B.svg)
 
 <em>11.2 Part 11 simplified & refactored (clickable)</em>
 
 Nice. In fact, that’s all that happens here. So, we can take the essential value from *Part 11* and use it for the final `updating` scheme:
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/11/part-11-C.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/11/part-11-C.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/11/part-11-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/11/part-11-C.svg)
 
 <em>11.3 Part 11 essential value (clickable)</em>
 

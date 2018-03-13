@@ -1,6 +1,6 @@
 ## 第二部分
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/2/part-2.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/2/part-2.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/2/part-2.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/2/part-2.svg)
 
 <em>2.0 第二部分</em>
 
@@ -31,19 +31,19 @@ var TRANSACTION_WRAPPERS = [
 
 让我们回顾一下这一部分，我们再一次流程图，然后删除一些不重要的信息，它将变成这样：
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/2/part-2-A.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/2/part-2-A.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/2/part-2-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/2/part-2-A.svg)
 
 <em>2.1 第二部分 简化</em>
 
 让我们优化一下排版：
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/2/part-2-B.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/2/part-2-B.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/2/part-2-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/2/part-2-B.svg)
 
 <em>2.2 第二部分 简化与重构</em>
 
 很好，其实这就是这一部分所发生的一切。我们可以从 *第一部分* 中取下必要的信息，然后完善 `mounting`（挂载） 的流程图：
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/2/part-2-C.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/2/part-2-C.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/2/part-2-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/2/part-2-C.svg)
 
 <em>2.3 第二部分 必要信息</em>
 

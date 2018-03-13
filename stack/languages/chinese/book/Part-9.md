@@ -1,6 +1,6 @@
 ## 第 9 部分
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/9/part-9.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/9/part-9.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/9/part-9.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/9/part-9.svg)
 
 <em>9.0 第 9 部分(点击查看大图)</em>
 
@@ -37,7 +37,7 @@ ReactErrorUtils.invokeGuardedCallback = function (name, func, a) {
 3. 把受影响的组件添加入 `dirtyComponents` 列表
 4. 在调用 `ReactUpdates.flushBatchedUpdates `的同时关闭事务, 并处理在所有 `dirtyComponents` 列表中的组件
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/9/set-state-update-start.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/9/set-state-update-start.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/9/set-state-update-start.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/9/set-state-update-start.svg)
 
 <em>9.1 `setState` 执行过程 (点击查看大图)</em>
 
@@ -45,19 +45,19 @@ ReactErrorUtils.invokeGuardedCallback = function (name, func, a) {
 
 我们来回顾一下我们学到的。我们再看一下这种模式，然后去掉冗余的部分：
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/9/part-9-A.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/9/part-9-A.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/9/part-9-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/9/part-9-A.svg)
 
 <em>9.2 第 9 部分简化版 (点击查看大图)</em>
 
 然后我们适当再调整一下：
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/9/part-9-B.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/9/part-9-B.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/9/part-9-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/9/part-9-B.svg)
 
 <em>9.3 第 9 部分简化和重构 (点击查看大图)</em>
 
 很好，实际上，下面的示意图就是我们所讲的。因此，我们可以理解**第 9 部分**的本质，并将其用于最终的 `updating` 方案：
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/9/part-9-C.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/9/part-9-C.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/9/part-9-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/9/part-9-C.svg)
 
 <em>9.4 第 9 部分本质 (点击查看大图)</em>
 

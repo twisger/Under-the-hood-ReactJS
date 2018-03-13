@@ -1,6 +1,6 @@
 ## 第 8 部分
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/8/part-8.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/8/part-8.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/8/part-8.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/8/part-8.svg)
 
 <em>8.0 Part 8 (点击查看大图)</em>
 
@@ -24,19 +24,19 @@ this.updater.enqueueSetState(this, partialState)
 
 我们来回顾一下我们学到的。我们再看一下这种模式，然后去掉冗余的部分：
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/8/part-8-A.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/8/part-8-A.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/8/part-8-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/8/part-8-A.svg)
 
 <em>8.1 第 8 部分简化版 (点击查看大图)</em>
 
 让我们适度在调整一下：
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/8/part-8-B.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/8/part-8-B.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/8/part-8-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/8/part-8-B.svg)
 
 <em>8.2 第 8 部分简化和重构 (点击查看大图)</em>
 
 很好，实际上，下面的示意图就是我们所讲的。因此，我们可以理解**第 8 部分**的本质，并将其用于最终的 `updating` 方案：
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/8/part-8-C.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/8/part-8-C.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/8/part-8-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/8/part-8-C.svg)
 
 <em>8.3 Part 8 本质 (点击查看大图)</em>
 

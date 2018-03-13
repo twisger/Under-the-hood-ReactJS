@@ -1,6 +1,6 @@
 ## 파트 11
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/11/part-11.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/11/part-11.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/11/part-11.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/11/part-11.svg)
 
 <em>11.0 파트 11 (클릭 가능)</em>
 
@@ -19,19 +19,19 @@
 
 우리가 어떻게 여기까지 왔는지 다시 한번 살펴보도록 합시다. 스키마에서 덜 중요한 부분을 제거하면 다음과 같습니다.
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/11/part-11-A.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/11/part-11-A.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/11/part-11-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/11/part-11-A.svg)
 
 <em>11.1 간단히 보는 파트 11 (클릭 가능)</em>
 
 공백제거와 정렬을 통해 보기 좋게 수정했습니다.
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/11/part-11-B.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/11/part-11-B.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/11/part-11-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/11/part-11-B.svg)
 
 <em>11.2 간단히 보는 파트 11 리펙토링 버전 (클릭 가능)</em>
 
 좋습니다. 사실, 이것이 여기서 일어나는 일 전부입니다. 이제 *파트 11*의 핵심들을 가지고 최종 `updating` 스키마에 사용할 수 있습니다.
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/11/part-11-C.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/11/part-11-C.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/11/part-11-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/11/part-11-C.svg)
 
 <em>11.3 파트 11의 핵심 (클릭 가능)</em>
 

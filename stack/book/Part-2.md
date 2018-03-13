@@ -1,6 +1,6 @@
 ## Part 2
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/2/part-2.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/2/part-2.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/2/part-2.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/2/part-2.svg)
 
 <em>2.0 Part 2 (clickable)</em>
 
@@ -30,19 +30,19 @@ Alright, let's move on to the component’s method `mountComponent`. It's probab
 
 Let’s recap how we got here. Let's look at the scheme one more time, then remove redundant less important pieces, and it becomes this:
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/2/part-2-A.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/2/part-2-A.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/2/part-2-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/2/part-2-A.svg)
 
 <em>2.1 Part 2 simplified (clickable)</em>
 
 And we should probably fix spaces and alignment as well:
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/2/part-2-B.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/2/part-2-B.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/2/part-2-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/2/part-2-B.svg)
 
 <em>2.2 Part 2 simplified & refactored (clickable)</em>
 
 Nice. In fact, that’s all that happens here. So, we can take the essential value from *Part 1* and use it for the final `mounting` scheme:
 
-[![](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/2/part-2-C.svg)](https://rawgit.com/Bogdan-Lyashenko/Under-the-hood-ReactJS/master/stack/images/2/part-2-C.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/2/part-2-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/2/part-2-C.svg)
 
 <em>2.3 Part 2 essential value (clickable)</em>
 
