@@ -1,6 +1,6 @@
 ## Part 14
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/14/part-14.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/14/part-14.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/14/part-14.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/14/part-14.svg)
 
 <em>14.0 Part 14 (clickable)</em>
 
@@ -14,7 +14,7 @@ Alright, let’s see how it works.
 
 So, the first iteration with `ExampleApplication children`. Obviously, type of children is not ‘content’, so we go with ‘complex’ case then. We take all children, and, one by one pass through almost the same scenario we made previously for their parent component. By the way, block with the verification `shouldUpdateReactComponent`(2) can confuse, it looks like verification checks update or not, but in reality, it checks update or delete&create (we skip NO branch on the scheme to keep it simple). Also, after, we compare old and current children, and if some child was removed, we unmount component and remove it as well.
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/14/children-update.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/14/children-update.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/14/children-update.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/14/children-update.svg)
 
 <em>14.1 Children update (clickable)</em>
 
@@ -102,25 +102,25 @@ Looks like we are done. Completely.
 
 Let’s recap how we got here. Let's look at the scheme one more time, then remove redundant less important pieces, and it becomes this:
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/14/part-14-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/14/part-14-A.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/14/part-14-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/14/part-14-A.svg)
 
 <em>14.2 Part 14 simplified (clickable)</em>
 
 And we should probably fix spaces and alignment as well:
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/14/part-14-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/14/part-14-B.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/14/part-14-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/14/part-14-B.svg)
 
 <em>14.3 Part 14 simplified & refactored (clickable)</em>
 
 Nice. In fact, that’s all that happens here. So, we can take the essential value from *Part 14* and use it for the final `updating` scheme:
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/14/part-14-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/14/part-14-C.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/14/part-14-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/14/part-14-C.svg)
 
 <em>14.4 Part 14 essential value (clickable)</em>
 
 And then we're done! In fact, we're done with updating. Let's see it below!
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/14/updating-parts-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/14/updating-parts-C.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/14/updating-parts-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/14/updating-parts-C.svg)
 
 <em>14.5 Updating (clickable)</em>
 

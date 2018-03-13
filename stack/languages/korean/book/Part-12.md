@@ -1,6 +1,6 @@
 ## 파트 12
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/12/part-12.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/12/part-12.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/12/part-12.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/12/part-12.svg)
 
 <em>12.0 파트 12 (클릭 가능)</em>
 
@@ -45,19 +45,19 @@ function shouldUpdateReactComponent(prevElement, nextElement) {
 
 우리가 어떻게 여기까지 왔는지 다시 한번 살펴보도록 합시다. 스키마를 한번 더 보시고, 덜 중요한 부분을 제거하면 다음과 같습니다.
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/12/part-12-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/12/part-12-A.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/12/part-12-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/12/part-12-A.svg)
 
 <em>12.1 간단히 보는 파트 12 (클릭 가능)</em>
 
 공백을 처리하고 정렬을 통해 더 좋게 수정했습니다:
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/12/part-12-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/12/part-12-B.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/12/part-12-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/12/part-12-B.svg)
 
 <em>12.2 간단히 보는 파트 12 리펙토링 버전 (클릭 가능)</em>
 
 좋습니다. 사실, 이것이 여기서 일어나는 일 전부입니다. 이제 *파트 12*의 핵심들을 가지고 최종 `updating` 스키마에 사용할 수 있습니다.
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/12/part-12-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/12/part-12-C.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/12/part-12-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/12/part-12-C.svg)
 
 <em>12.3 파트 12의 핵심 (클릭 가능)</em>
 

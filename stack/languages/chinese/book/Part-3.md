@@ -1,6 +1,6 @@
 ## 第 3 部分
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/3/part-3.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/3/part-3.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/3/part-3.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/3/part-3.svg)
 
 <em>3.0 第 3 部分 (点击查看大图)</em>
 
@@ -74,19 +74,19 @@ if (inst.componentWillMount) {
 
 我们来回顾一下我们学到的。我们再看一下这种模式，然后去掉冗余的部分：
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/3/part-3-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/3/part-3-A.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/3/part-3-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/3/part-3-A.svg)
 
 <em>3.1 第 3 部分简化版 (点击查看大图)</em>
 
 让我们适度在调整一下:
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/3/part-3-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/3/part-3-B.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/3/part-3-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/3/part-3-B.svg)
 
 <em>3.2 第 3 部分简化和重构 (点击查看大图)</em>
 
 很好，实际上，下面的示意图就是我们所讲的。因此，我们可以理解**第 3 部分**的本质，并将其用于最终的 `mount` 方案：
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/3/part-3-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/3/part-3-C.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/3/part-3-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/3/part-3-C.svg)
 
 <em>3.3 第 3 部分本质 (点击查看大图)</em>
 

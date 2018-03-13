@@ -1,6 +1,6 @@
 ## Part 5
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/5/part-5.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/5/part-5.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/5/part-5.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/5/part-5.svg)
 
 <em>5.0 Part 5 (clickable)</em>
 
@@ -39,19 +39,19 @@ Well, we’ve finished updating the properties. Let’s move on.
 
 Let’s recap how we got here. Let's look at the scheme one more time, then remove redundant less important pieces, and it becomes this:
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/5/part-5-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/5/part-5-A.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/5/part-5-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/5/part-5-A.svg)
 
 <em>5.1 Part 5 simplified (clickable)</em>
 
 And we should probably fix spaces and alignment as well:
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/5/part-5-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/5/part-5-B.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/5/part-5-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/5/part-5-B.svg)
 
 <em>5.2 Part 5 simplified & refactored (clickable)</em>
 
 Nice. In fact, that’s all that happens here. So, we can take the essential value from *Part 5* and use it for the final `mounting` scheme:
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/5/part-5-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/5/part-5-C.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/5/part-5-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/5/part-5-C.svg)
 
 <em>5.3 Part 5 essential value (clickable)</em>
 

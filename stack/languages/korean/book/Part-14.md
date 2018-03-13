@@ -1,6 +1,6 @@
 ## 파트 14
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/14/part-14.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/14/part-14.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/14/part-14.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/14/part-14.svg)
 
 <em>14.0 파트 14 (클릭 가능)</em>
 
@@ -14,7 +14,7 @@
 
 `ExampleApplication children`을 사용한 첫 번째 반복입니다. 분명히, 자식의 타입은 'content'가 아닐것이므로 '복잡한'경우로 가보겠습니다. 이전에 부모 컴포넌트를 만든 것과 거의 동일한 사나리오를 모든 자식들에게 각각 적용합니다. 이때, `shouldUpdateReactComponent`(2)와 같은 검증 블록은 헷갈릴 수 있는데, 이것은 업데이트 여부를 검증하는것 처럼 보이지만, 실제로는 그것의 업데이트 혹은 삭제, 생성을 체크합니다.(스키마를 심플하게하기 위해 생략했습니다.) 또한, 이전과 현재의 자식들을 비교해서 어떠한 자식이 제거되었다면, 그 컴포넌트를 언마운트하고 제거합니다.
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/14/children-update.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/14/children-update.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/14/children-update.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/14/children-update.svg)
 
 <em>14.1 자식 업데이트 (클릭 가능)</em>
 
@@ -100,25 +100,25 @@ processUpdates: function(parentNode, updates) {
 
 우리가 어떻게 여기까지 왔는지 다시 한번 살펴보도록 합시다. 스키마에서 덜 중요한 부분을 제거하면 다음과 같습니다.
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/14/part-14-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/14/part-14-A.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/14/part-14-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/14/part-14-A.svg)
 
 <em>14.2 간단히 보는 파트 14 (클릭 가능)</em>
 
 공백제거와 정렬을 통해 보기 좋게 수정했습니다.
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/14/part-14-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/14/part-14-B.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/14/part-14-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/14/part-14-B.svg)
 
 <em>14.3 간단히 보는 파트 14 리펙토링 버전 (클릭 가능)</em>
 
 좋습니다. 사실, 이것이 여기서 일어나는 일 전부입니다. 이제 *파트 14*의 핵심들을 가지고 최종 `updating` 스키마에 사용할 수 있습니다.
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/14/part-14-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/14/part-14-C.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/14/part-14-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/14/part-14-C.svg)
 
 <em>14.4 파트 14의 핵심 (클릭 가능)</em>
 
 우리는 해냈습니다! 사실 우리는 업데이팅을 끝냈습니다. 아래를 보십시오.
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/14/updating-parts-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/14/updating-parts-C.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/14/updating-parts-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/14/updating-parts-C.svg)
 
 <em>14.5 업데이팅 (클릭 가능)</em>
 

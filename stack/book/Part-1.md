@@ -1,6 +1,6 @@
 ## Part 1
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/1/part-1.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/1/part-1.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/1/part-1.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/1/part-1.svg)
 
 <em>1.0 Part 1 (clickable)</em>
 
@@ -13,7 +13,7 @@ What actually helps handle this pre/post processing? Right, **transaction**! For
 Imagine the ‘communication channel’. You need to open a connection, send the message, then close the connection. This can be a lot if you send several messages one by one. Instead, you can open the connection only once, send all pending messages, then close connection after.
 
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/1/communication-channel.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/1/communication-channel.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/1/communication-channel.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/1/communication-channel.svg)
 
 <em>1.1 Very real example of transaction (clickable)</em>
 
@@ -26,7 +26,7 @@ So, **the idea is**:
 * call the transaction method itself
 * call each wrapper.close
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/1/transaction.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/1/transaction.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/1/transaction.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/1/transaction.svg)
 
 <em>1.2 Transaction implementation (clickable)</em>
 
@@ -67,19 +67,19 @@ Alright, let’s take a look at the method that was wrapped in the transaction. 
 
 Let’s recap how we got here. Let's look at the scheme one more time, then remove redundant less important pieces, and it becomes this:
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/1/part-1-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/1/part-1-A.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/1/part-1-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/1/part-1-A.svg)
 
 <em>1.3 Part 1 simplified (clickable)</em>
 
 And we should probably fix spaces and alignment as well:
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/1/part-1-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/1/part-1-B.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/1/part-1-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/1/part-1-B.svg)
 
 <em>1.4 Part 1 simplified & refactored (clickable)</em>
 
 Nice. In fact, that’s all that happens here. So, we can take the essential value from *Part 1* and use it for the final `mounting` scheme:
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/1/part-1-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/1/part-1-C.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/1/part-1-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/1/part-1-C.svg)
 
 <em>1.5 Part 1 essential value (clickable)</em>
 

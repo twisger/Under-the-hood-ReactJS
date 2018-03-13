@@ -1,6 +1,6 @@
 ## 第 11 部分
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/11/part-11.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/11/part-11.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/11/part-11.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/11/part-11.svg)
 
 <em>11.0 第 11 部分(点击查看大图)</em>
 
@@ -20,19 +20,19 @@
 
 我们来回顾一下我们学到的。我们再看一下这种模式，然后去掉冗余的部分：
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/11/part-11-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/11/part-11-A.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/11/part-11-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/11/part-11-A.svg)
 
 <em>11.1 第 11 部分简化版 (点击查看大图)</em>
 
 然后我们适当再调整一下：
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/11/part-11-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/11/part-11-B.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/11/part-11-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/11/part-11-B.svg)
 
 <em>11.2 第 11 部分简化和重构 (点击查看大图)</em>
 
 很好，实际上，下面的示意图就是我们所讲的。因此，我们可以理解**第 11 部分**的本质，并将其用于最终的 `updating` 方案：
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/11/part-11-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/11/part-11-C.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/11/part-11-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/11/part-11-C.svg)
 
 <em>11.3 第 11 部分本质 (点击查看大图)</em>
 

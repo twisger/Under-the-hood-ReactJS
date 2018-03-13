@@ -1,6 +1,6 @@
 ## 파트 9
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/9/part-9.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/9/part-9.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/9/part-9.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/9/part-9.svg)
 
 <em>9.0 파트 9 (클릭 가능)</em>
 
@@ -36,7 +36,7 @@ ReactErrorUtils.invokeGuardedCallback = function (name, func, a) {
 3. `dirtyComponents`리스트에 영향받은 컴포넌트 추가
 4. `ReactUpdates.flushBatchedUpdates`를 호출해서 트랜잭션을 클로즈하고, 실제로 `dirtyComponents`에 수집된 내용을 처리한다는 것을 의미.
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/9/set-state-update-start.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/9/set-state-update-start.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/9/set-state-update-start.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/9/set-state-update-start.svg)
 
 <em>9.1 `setState` 시작 (클릭 가능)</em>
 
@@ -44,19 +44,19 @@ ReactErrorUtils.invokeGuardedCallback = function (name, func, a) {
 
 우리가 어떻게 여기까지 왔는지 다시 한번 살펴보도록 합시다. 스키마에서 덜 중요한 부분을 제거하면 다음과 같습니다.
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/9/part-9-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/9/part-9-A.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/9/part-9-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/9/part-9-A.svg)
 
 <em>9.2 간단히 보는 파트 9 (클릭 가능)</em>
 
 공백제거와 정렬을 통해 보기 좋게 수정했습니다.
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/9/part-9-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/9/part-9-B.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/9/part-9-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/9/part-9-B.svg)
 
 <em>9.3 간단히 보는 파트 9 리펙토링 버전 (클릭 가능)</em>
 
 좋습니다. 사실, 이것이 여기서 일어나는 일 전부입니다. 이제 *파트 9*의 핵심들을 가지고 최종 `updating` 스키마에 사용할 수 있습니다.
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/9/part-9-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/9/part-9-C.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/9/part-9-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/9/part-9-C.svg)
 
 <em>9.6 파트 9의 핵심 (클릭 가능)</em>
 

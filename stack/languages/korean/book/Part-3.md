@@ -1,6 +1,6 @@
 ## 파트 3
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/3/part-3.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/3/part-3.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/3/part-3.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/3/part-3.svg)
 
 <em>3.0 파트 3 (클릭 가능)</em>
 
@@ -74,19 +74,19 @@ if (inst.componentWillMount) {
 
 우리가 어떻게 여기까지 왔는지 다시 한번 살펴보도록 합시다. 스키마에서 덜 중요한 부분을 제거하면 다음과 같습니다.
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/3/part-3-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/3/part-3-A.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/3/part-3-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/3/part-3-A.svg)
 
 <em>3.1 간단히 보는 파트 3 (클릭 가능)</em>
 
 공백제거와 정렬을 통해 보기 좋게 수정했습니다.
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/3/part-3-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/3/part-3-B.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/3/part-3-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/3/part-3-B.svg)
 
 <em>3.2 간단히 보는 파트 3 리펙토링 버전 (클릭 가능)</em>
 
 좋습니다. 사실, 이것이 여기서 일어나는 일 전부입니다. 이제 *파트 3*의 핵심들을 가지고 최종 `mounting` 스키마에 사용할 수 있습니다.
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/3/part-3-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/3/part-3-C.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/3/part-3-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/3/part-3-C.svg)
 
 <em>3.3 파트 3의 핵심 (클릭 가능)</em>
 

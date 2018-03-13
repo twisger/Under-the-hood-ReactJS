@@ -1,6 +1,6 @@
 ## 파트 1
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/1/part-1.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/1/part-1.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/1/part-1.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/1/part-1.svg)
 
 <em>1.0 파트 1 (클릭 가능)</em>
 
@@ -13,7 +13,7 @@
 '통신 채널'을 상상해보십시오. 커넥션을 열고 메시지를 보낸 다음 커넥션을 닫아야합니다. 여러 개의 메시지를 하나씩 보내면 이와 같은 일이 많이 발생할 수 있습니다. 대신, 커넥션을 한 번만 열어 보류중인 모든 메시지를 보낸 다음 커넥션을 닫을 수 있습니다.
 
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/1/communication-channel.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/1/communication-channel.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/1/communication-channel.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/1/communication-channel.svg)
 
 <em>1.1 트랜잭션의 가장 현실적인 예제 (클릭 가능)</em>
 
@@ -26,7 +26,7 @@
 * 자체 트랜잭션 메소드를 호출합니다.
 * 각 wrapper.close를 호출합니다.
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/1/transaction.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/1/transaction.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/1/transaction.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/1/transaction.svg)
 
 <em>1.2 트랜잭션 구현 (클릭 가능)</em>
 
@@ -67,19 +67,19 @@ var TRANSACTION_WRAPPERS = [FLUSH_BATCHED_UPDATES, RESET_BATCHED_UPDATES];
 
 우리가 어떻게 여기까지 왔는지 다시 한번 살펴보도록 합시다. 스키마에서 덜 중요한 부분을 제거하면 다음과 같습니다.
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/1/part-1-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/1/part-1-A.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/1/part-1-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/1/part-1-A.svg)
 
 <em>1.3 간단히 보는 파트 1 (클릭 가능)</em>
 
 공백제거와 정렬을 통해 보기 좋게 수정했습니다.
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/1/part-1-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/1/part-1-B.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/1/part-1-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/1/part-1-B.svg)
 
 <em>1.4 간단히 보는 파트 1 리펙토링 버전 (클릭 가능)</em>
 
 좋습니다. 사실, 이것이 여기서 일어나는 일 전부입니다. 이제 *파트 1*의 핵심들을 가지고 최종 `mounting` 스키마에 사용할 수 있습니다.
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/1/part-1-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/1/part-1-C.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/1/part-1-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/1/part-1-C.svg)
 
 <em>1.5 파트 1의 핵심 (클릭 가능)</em>
 

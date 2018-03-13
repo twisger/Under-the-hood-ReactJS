@@ -1,6 +1,6 @@
 ## 第 13 部分
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/13/part-13.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/13/part-13.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/13/part-13.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/13/part-13.svg)
 
 <em>13.0 第 13 部分（点击查看大图）</em>
 
@@ -11,19 +11,19 @@
 ### 好了，我们已经完成了*第 13 部分*。好短的一章。
 让我们概括一下我们怎么到这里的。再看一下这张图，然后移除掉冗余的不那么重要的部分，它就变成了这样：
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/13/part-13-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/13/part-13-A.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/13/part-13-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/13/part-13-A.svg)
 
 <em>13.1 第 13 部分 简化（点击查看大图）</em>
 
 我们也应该尽可能的修改空格和对齐方式:
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/13/part-13-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/13/part-13-B.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/13/part-13-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/13/part-13-B.svg)
 
 <em>13.2 第 13 部分 简化和重构（点击查看大图）</em>
 
 很好。实际上它就是这儿所发生的一切。我们可以从*第 13 部分*中获得基本价值，并将其用于最终的“更新”图表：
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/13/part-13-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/13/part-13-C.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/13/part-13-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/13/part-13-C.svg)
 
 <em>13.3 第 13 部分本质（点击查看大图）</em>
 

@@ -1,6 +1,6 @@
 ## Part 8
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/8/part-8.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/8/part-8.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/8/part-8.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/8/part-8.svg)
 
 <em>8.0 Part 8 (clickable)</em>
 
@@ -24,19 +24,19 @@ To summarize this, each component has own list of pending states, means, each ti
 
 Let’s recap how we got here. Let's look at the scheme one more time, then remove redundant less important pieces, and it becomes this:
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/8/part-8-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/8/part-8-A.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/8/part-8-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/8/part-8-A.svg)
 
 <em>8.1 Part 8 simplified (clickable)</em>
 
 And we should probably fix spaces and alignment as well:
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/8/part-8-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/8/part-8-B.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/8/part-8-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/8/part-8-B.svg)
 
 <em>8.2 Part 8 simplified & refactored (clickable)</em>
 
 Nice. In fact, that’s all that happens here. So, we can take the essential value from *Part 8* and use it for the final `updating` scheme:
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/8/part-8-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/8/part-8-C.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/8/part-8-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/8/part-8-C.svg)
 
 <em>8.3 Part 8 essential value (clickable)</em>
 

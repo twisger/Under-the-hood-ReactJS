@@ -1,6 +1,6 @@
 ## Part 12
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/12/part-12.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/12/part-12.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/12/part-12.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/12/part-12.svg)
 
 <em>12.0 Part 12 (clickable)</em>
 
@@ -45,19 +45,19 @@ Alright, in the case with our `ExampleApplication` we just updated `state` prope
 
 Let’s recap how we got here. Let's look at the scheme one more time, then remove redundant less important pieces, and it becomes this:
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/12/part-12-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/12/part-12-A.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/12/part-12-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/12/part-12-A.svg)
 
 <em>12.1 Part 12 simplified (clickable)</em>
 
 And we should probably fix spaces and alignment as well:
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/12/part-12-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/12/part-12-B.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/12/part-12-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/12/part-12-B.svg)
 
 <em>12.2 Part 12 simplified & refactored (clickable)</em>
 
 Nice. In fact, that’s all that happens here. So, we can take the essential value from *Part 12* and use it for the final `updating` scheme:
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/12/part-12-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/12/part-12-C.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/12/part-12-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/12/part-12-C.svg)
 
 <em>12.3 Part 12 essential value (clickable)</em>
 

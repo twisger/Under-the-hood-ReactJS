@@ -1,6 +1,6 @@
 ## Part 6
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/6/part-6.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/6/part-6.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/6/part-6.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/6/part-6.svg)
 
 <em>6.0 Part 6 (clickable)</em>
 
@@ -14,7 +14,7 @@ There is a separate module called `ReactMultiChild` (`src\renderers\shared\stack
 
 If you are still reading this, it's probably time to clarify and review the overall process one more time. Let’s take a break and recollect the sequence of objects.
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/6/overall-mounting-scheme.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/6/overall-mounting-scheme.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/6/overall-mounting-scheme.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/6/overall-mounting-scheme.svg)
 
 <em>6.1 Overall mounting scheme (clickable)</em>
 
@@ -38,19 +38,19 @@ So, mounting is basically finished. Enqueue the `componentDidMount` method! Grea
 
 Let’s recap how we got here. Let's look at the scheme one more time, then remove redundant less important pieces, and it becomes this:
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/6/part-6-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/6/part-6-A.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/6/part-6-A.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/6/part-6-A.svg)
 
 <em>6.2 Part 6 simplified (clickable)</em>
 
 And we should probably fix spaces and alignment as well:
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/6/part-6-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/6/part-6-B.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/6/part-6-B.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/6/part-6-B.svg)
 
 <em>6.3 Part 6 simplified & refactored (clickable)</em>
 
 Nice. In fact, that’s all that happens here. So, we can take the essential value from *Part 6* and use it for the final `mounting` scheme:
 
-[![](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/6/part-6-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/master/stack/images/6/part-6-C.svg)
+[![](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/6/part-6-C.svg)](https://twisger.github.io/Under-the-hood-ReactJS/stack/images/6/part-6-C.svg)
 
 <em>6.4 Part 6 essential value (clickable)</em>
 
