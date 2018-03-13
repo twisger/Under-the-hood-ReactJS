@@ -1,7 +1,7 @@
 # Under the hood: React
 <em> This repository contains an explanation of inner work of React. In fact, I was debugging through the entire code base and put all the logic on visual block-schemes, analyzed them, summarized and explained main concepts and approaches. I've already finished with Stack version and now I work with the next, Fiber version.  </em>
 
->> Read in the best format from [github-pages website](https://bogdan-lyashenko.github.io/Under-the-hood-ReactJS/).
+>> Read in the best format from [github-pages website](https://twisger.github.io/Under-the-hood-ReactJS/).
 
 > Feel free to open an issue regarding any ideas you have to make it better.
 
